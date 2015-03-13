@@ -12,4 +12,4 @@ PARTAI POLITIK PESERTA PEMILU YANG MEMENUHI DAN TIDAK MEMENUHI AMBANG BATAS PERO
 5. `$ bundle exec rails server`
 
 ## Documentation API
-See [Documentation API](http://docs.ambangbatasapi.apiary.io/) for information on defining and using realisasi-anggaran-pemilu
+See [Documentation API](http://docs.ambangbatasapi.apiary.io/) for information on defining and using ambang-batas-endpoint
