@@ -31,8 +31,8 @@ module Pemilu
             ambang_batas << {
               id: treshold.id,
               partai: {
-                id: treshold.party.id,
-                nama: treshold.party.nama_lengkap,
+                id: treshold.party_id,
+                nama: treshold.party_nama_lengkap,
               },
               perolehan_suara: treshold.total,
               presentase: treshold.precentage,
