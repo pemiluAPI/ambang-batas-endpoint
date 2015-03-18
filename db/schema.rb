@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150312083811) do
+ActiveRecord::Schema.define(version: 20150318090729) do
 
   create_table "parties", force: true do |t|
     t.string "nama"
@@ -30,5 +30,7 @@ ActiveRecord::Schema.define(version: 20150312083811) do
     t.string "status"
     t.string "party_id"
   end
+
+  add_index "tresholds", ["party_id"], name: "index_tresholds_on_party_id", using: :btree
 
 end
